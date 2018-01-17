@@ -18,6 +18,11 @@ To start the project use:
 npm run dev
 ```
 
+In order for the styling to work, use
+```
+npm run sync-assets
+```
+
 ## Credits
 Home animation are taken from https://www.lottiefiles.com/410-lego-loader
 Created by Chris Gannon
