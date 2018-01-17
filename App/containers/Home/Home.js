@@ -33,8 +33,8 @@ class Home extends Component {
           <ul className="col-xs-12">
            {promotedmenus && promotedmenus.length > 0 && promotedmenus.map((menu, index) => {
               return(
-                  <Link to={`toys/${menu.pathSlug}`}>
-                    <li className="col-xs-3" key={index}>{menu.name}</li>
+                  <Link to={`toys/${menu.pathSlug}`} key={index}>
+                    <li className="col-xs-3">{menu.name}</li>
                   </Link>
               )
             })
