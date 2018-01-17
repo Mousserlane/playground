@@ -1,0 +1,160 @@
+export const dataD3 = [
+    {
+        name: "Lavon Hilll I",
+        BMI: 20.57,
+        index: 1
+      },
+      {
+        name: "Clovis Pagac",
+        BMI: 19.28,
+        index: 2
+      },
+      {
+        name: "Gaylord Paucek",
+        BMI: 15.41,
+        index: 5
+      },
+      {
+        name: "Ashlynn Kuhn MD",
+        BMI: 23.77,
+        index: 6
+      },
+]
+
+export const storyAnalytics = [
+        {date: new Date(2017,9,1), totalRead: 30, totalLikes: 15, totalComments: 5},
+        {date: new Date(2017,9,2), totalRead: 50, totalLikes: 15, totalComments: 6},
+        {date: new Date(2017,9,3), totalRead: 60, totalLikes: 17, totalComments: 8},
+        {date: new Date(2017,9,4), totalRead: 60, totalLikes: 17, totalComments: 8},
+        {date: new Date(2017,9,5), totalRead: 60, totalLikes: 17, totalComments: 8},
+        {date: new Date(2017,9,6), totalRead: 30, totalLikes: 20, totalComments: 12},
+        {date: new Date(2017,9,7), totalRead: 80, totalLikes: 20, totalComments: 12},
+        {date: new Date(2017,9,7), totalRead: 80, totalLikes: 20, totalComments: 12},
+        {date: new Date(2017,9,7), totalRead: 30, totalLikes: 20, totalComments: 12},
+        {date: new Date(2017,9,7), totalRead: 50, totalLikes: 20, totalComments: 12},
+        {date: new Date(2017,9,7), totalRead: 40, totalLikes: 20, totalComments: 12},
+        {date: new Date(2017,9,7), totalRead: 30, totalLikes: 20, totalComments: 12},
+        {date: new Date(2017,9,7), totalRead: 10, totalLikes: 20, totalComments: 12},
+]
+
+export const nestedStoryAnalytics = [
+    {
+        story: "Jejak Misteri Ki Joko X",
+        metaData: [
+            {date: new Date(2017,9,1), totalRead: 30, totalLikes: 15, totalComments: 5},
+            {date: new Date(2017,9,2), totalRead: 50, totalLikes: 15, totalComments: 6},
+            {date: new Date(2017,9,3), totalRead: 60, totalLikes: 17, totalComments: 8},
+            {date: new Date(2017,9,4), totalRead: 60, totalLikes: 17, totalComments: 8},
+            {date: new Date(2017,9,5), totalRead: 60, totalLikes: 17, totalComments: 8},
+            {date: new Date(2017,9,6), totalRead: 80, totalLikes: 20, totalComments: 12},
+            {date: new Date(2017,9,7), totalRead: 80, totalLikes: 20, totalComments: 12},
+        ]
+    }
+]
+
+export const dailyStoryData = [
+    {date: "9 sept 2017", totalRead: 30},
+    {date: "10 sept 2017", totalRead: 40},
+    {date: "11 sept 2017", totalRead: 50},
+    {date: "12 sept 2017", totalRead: 60},
+    {date: "13 sept 2017", totalRead: 50},
+    {date: "14 sept 2017", totalRead: 25},
+    {date: "15 sept 2017", totalRead: 20}
+]
+
+export const monthlyStoryData = [
+    {month: "sept", totalRead: 30},
+    {month: "sept", totalRead: 40},
+    {month: "oct", totalRead: 50},
+    {month: "oct", totalRead: 60},
+    {month: "oct", totalRead: 50},
+    {month: "nov", totalRead: 25},
+    {month: "dec", totalRead: 20}
+]
+
+export const threeMthsData = [
+    {date: "2017-07-01T00:00:00.000Z", total: 1},
+    {date: "2017-07-02T00:00:00.000Z", total: 1},
+    {date: "2017-07-03T00:00:00.000Z", total: 1},
+    {date: "2017-07-04T00:00:00.000Z", total: 1},
+    {date: "2017-07-05T00:00:00.000Z", total: 1},
+    {date: "2017-07-06T00:00:00.000Z", total: 1},
+    {date: "2017-07-07T00:00:00.000Z", total: 1},
+    {date: "2017-07-08T00:00:00.000Z", total: 1},
+    {date: "2017-07-09T00:00:00.000Z", total: 1},
+    {date: "2017-07-10T00:00:00.000Z", total: 1},
+    {date: "2017-07-11T00:00:00.000Z", total: 1},
+    {date: "2017-07-12T00:00:00.000Z", total: 1},
+    {date: "2017-07-13T00:00:00.000Z", total: 1},
+    {date: "2017-07-14T00:00:00.000Z", total: 1},
+    {date: "2017-07-15T00:00:00.000Z", total: 1},
+    {date: "2017-07-16T00:00:00.000Z", total: 1},
+    {date: "2017-07-17T00:00:00.000Z", total: 1},
+    {date: "2017-07-18T00:00:00.000Z", total: 1},
+    {date: "2017-07-19T00:00:00.000Z", total: 1},
+    {date: "2017-07-20T00:00:00.000Z", total: 1},
+    {date: "2017-07-21T00:00:00.000Z", total: 1},
+    {date: "2017-07-22T00:00:00.000Z", total: 1},
+    {date: "2017-07-23T00:00:00.000Z", total: 1},
+    {date: "2017-07-24T00:00:00.000Z", total: 1},
+    {date: "2017-07-25T00:00:00.000Z", total: 1},
+    {date: "2017-07-26T00:00:00.000Z", total: 1},
+    {date: "2017-07-27T00:00:00.000Z", total: 1},
+    {date: "2017-07-28T00:00:00.000Z", total: 1},
+    {date: "2017-07-29T00:00:00.000Z", total: 1},
+    {date: "2017-07-30T00:00:00.000Z", total: 1},
+    {date: "2017-07-31T00:00:00.000Z", total: 1},
+    {date: "2017-08-01T00:00:00.000Z", total: 1},
+    {date: "2017-08-02T00:00:00.000Z", total: 1},
+    {date: "2017-08-03T00:00:00.000Z", total: 1},
+    {date: "2017-08-04T00:00:00.000Z", total: 1},
+    {date: "2017-08-05T00:00:00.000Z", total: 1},
+    {date: "2017-08-06T00:00:00.000Z", total: 1},
+    {date: "2017-08-07T00:00:00.000Z", total: 1},
+    {date: "2017-08-08T00:00:00.000Z", total: 1},
+    {date: "2017-08-09T00:00:00.000Z", total: 1},
+    {date: "2017-08-10T00:00:00.000Z", total: 1},
+    {date: "2017-08-11T00:00:00.000Z", total: 1},
+    {date: "2017-08-12T00:00:00.000Z", total: 1},
+    {date: "2017-08-13T00:00:00.000Z", total: 1},
+    {date: "2017-08-14T00:00:00.000Z", total: 1},
+    {date: "2017-08-15T00:00:00.000Z", total: 1},
+    {date: "2017-08-16T00:00:00.000Z", total: 1},
+    {date: "2017-08-17T00:00:00.000Z", total: 1},
+    {date: "2017-08-18T00:00:00.000Z", total: 1},
+    {date: "2017-08-19T00:00:00.000Z", total: 1},
+    {date: "2017-08-20T00:00:00.000Z", total: 1},
+    {date: "2017-08-21T00:00:00.000Z", total: 1},
+    {date: "2017-08-22T00:00:00.000Z", total: 1},
+    {date: "2017-08-23T00:00:00.000Z", total: 1},
+    {date: "2017-08-24T00:00:00.000Z", total: 1},
+    {date: "2017-08-25T00:00:00.000Z", total: 1},
+    {date: "2017-08-26T00:00:00.000Z", total: 1},
+    {date: "2017-08-27T00:00:00.000Z", total: 1},
+    {date: "2017-08-28T00:00:00.000Z", total: 1},
+    {date: "2017-08-29T00:00:00.000Z", total: 1},
+    {date: "2017-08-30T00:00:00.000Z", total: 1},
+    {date: "2017-08-31T00:00:00.000Z", total: 1},
+    {date: "2017-09-01T00:00:00.000Z", total: 1},
+    {date: "2017-09-02T00:00:00.000Z", total: 1},
+    {date: "2017-09-03T00:00:00.000Z", total: 1},
+    {date: "2017-09-04T00:00:00.000Z", total: 1},
+    {date: "2017-09-05T00:00:00.000Z", total: 1},
+    {date: "2017-09-06T00:00:00.000Z", total: 1},
+    {date: "2017-09-07T00:00:00.000Z", total: 1},
+    {date: "2017-09-08T00:00:00.000Z", total: 1},
+    {date: "2017-09-09T00:00:00.000Z", total: 1},
+    {date: "2017-09-10T00:00:00.000Z", total: 1},
+    {date: "2017-09-11T00:00:00.000Z", total: 1},
+    {date: "2017-09-12T00:00:00.000Z", total: 1},
+    {date: "2017-09-13T00:00:00.000Z", total: 1},
+    {date: "2017-09-14T00:00:00.000Z", total: 1},
+    {date: "2017-09-15T00:00:00.000Z", total: 1},
+    {date: "2017-09-16T00:00:00.000Z", total: 1},
+    {date: "2017-09-17T00:00:00.000Z", total: 1},
+    {date: "2017-09-18T00:00:00.000Z", total: 1},
+    {date: "2017-09-19T00:00:00.000Z", total: 1},
+    {date: "2017-09-20T00:00:00.000Z", total: 1},
+    {date: "2017-09-21T00:00:00.000Z", total: 1},
+    {date: "2017-09-22T00:00:00.000Z", total: 1},
+]

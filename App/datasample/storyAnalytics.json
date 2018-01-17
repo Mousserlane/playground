@@ -1,0 +1,9 @@
+[
+    {"date": "9 sept 2017", "totalRead": 30, "totalLikes": 15, "totalComments": 5},
+    {"date": "10 sept 2017", "totalRead": 40, "totalLikes": 16, "totalComments": 7},
+    {"date": "11 sept 2017", "totalRead": 50, "totalLikes": 16, "totalComments": 7},
+    {"date": "12 sept 2017", "totalRead": 60, "totalLikes": 16, "totalComments": 7},
+    {"date": "13 sept 2017", "totalRead": 50, "totalLikes": 18, "totalComments": 7},
+    {"date": "14 sept 2017", "totalRead": 25, "totalLikes": 20, "totalComments": 10},
+    {"date": "15 sept 2017", "totalRead": 20, "totalLikes": 22, "totalComments": 10}
+]
