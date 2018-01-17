@@ -14,7 +14,9 @@ It's a Universal React App which include server side rendering.
 ## Starting The Project
 To start the project use: 
 
-```npm run dev```
+```
+npm run dev
+```
 
 ## Credits
 Home animation are taken from https://www.lottiefiles.com/410-lego-loader
