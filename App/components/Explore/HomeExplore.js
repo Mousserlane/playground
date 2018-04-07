@@ -9,13 +9,15 @@ class HomeExplore extends Component {
   }
   static defaultProps = {
       data: [
-        {name: 'MomentJs', pathSlug: 'moment-js', imgPath: '/static/assets/moment.png'},
-        {name: 'deck.gl', pathSlug: 'deck-gl', imgPath: '/static/assets/deckgl.jpg'},
-        {name: 'mapbox', pathSlug: 'mapbox', imgPath: '/static/assets/mapbox-logo-256.png'},
+        { name: 'MomentJs', pathSlug: 'moment-js', imgPath: '/static/assets/moment.png' },
+        { name: 'deck.gl', pathSlug: 'deck-gl', imgPath: '/static/assets/deckgl.jpg' },
+        { name: 'mapbox', pathSlug: 'mapbox', imgPath: '/static/assets/mapbox-logo-256.png' },
         //{name: 'lodash', pathSlug: 'lodash', imgPath: '/static/assets/lodash.png'},
-        {name: 'redux', pathSlug: 'redux', imgPath: '/static/assets/logo-redux.png'}
+        { name: 'redux', pathSlug: 'redux', imgPath: '/static/assets/logo-redux.png' },
+        { name: 'Three js', pathSlug: 'three-js', imgPath: '/static/assets/threeJS.png' }
       ]
   }
+  
   render() {
     const { data } = this.props;
     return (

@@ -9,3 +9,4 @@ export ToolTip from './Analytics/ToolTip';
 export MomentJs from './MomentJs/MomentJs';
 export HomeExplore from './Explore/HomeExplore';
 export Card from './Card/Card';
+export Threejs from './Threejs/Threejs';
