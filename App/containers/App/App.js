@@ -24,7 +24,7 @@ class App extends Component {
       return (
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/toys/:pathSlug" component={Showcase} />
+          <Route path="/toys" component={Showcase} />
           <Route component={NotFound} />
         </Switch>
         )
