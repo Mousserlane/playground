@@ -26,7 +26,21 @@ export const Routes = [
    exact: true, 
    component: MainContainer
   },
-  {path:'/toys/:pathSlug',
-   component: Showcase
+  {path:'/toys',
+   component: Showcase,
+   routes: [
+     {
+       path: '/d3-js',
+     },
+     {
+       path: '/analytics'
+     },
+     {
+       path: '/snapsvg'
+     },
+     {
+       path: '/react-bootstrap'
+     }
+   ]
   },
 ]
