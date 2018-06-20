@@ -27,7 +27,6 @@ app.get('*', (req, res) => {
 
     var context = {}
     if(!matchRoute) {
-        console.log('no route match!');
         res.status(404).send(renderer(<NotFound />));
         return;
     }
